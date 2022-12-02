@@ -1,0 +1,19 @@
+{
+  "name": "vite",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "dotenv-vault-core": "^0.6.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.4.0"
+  }
+}
